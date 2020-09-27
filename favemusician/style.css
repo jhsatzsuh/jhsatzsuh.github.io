@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-color: #D6A0D6;
+    font-family: 'Homenaje', sans-serif;
+    font-size: 20px;
+}
+
+#logo {
+    width: 7%;
+    height: 7%;
+    margin: 10px;
+}
+
+header {
+    background-color: #26BE25;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#title {
+    display: inline;
+    font-size: 50px;
+    font-family: 'Michroma', sans-serif;
+}
+
+#links li {
+    display: inline;
+    padding: 15px;
+    border-right: 2px solid black;
+    font-size: 20px;
+}
+
+#links li:hover {
+    background-color: lightsalmon;
+}
+
+#links a {
+    color: black;
+    text-decoration: solid goldenrod ;
+}
+
+nav {
+    background-color: #F37E0C;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+section {
+    padding: 20px;
+}
+
+table, td {
+    border-collapse: collapse;
+    border: 2px solid #F37E0C;
+    padding: 30px;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: justify;
+    padding: 20px;
+    border: 2px solid black;
+    border-bottom: 2px solid #F37E0C;
+    font-size: 25px;
+}
+
+caption {
+    font-size: 30px;
+    background-color: #26BE25;
+    color: white;
+    padding: 30px;
+    border: 2px solid #D6A0D6;
+}
+
+td {
+    text-align: justify;
+    list-style-position: center;
+    font-size: 22.5px;
+}
+
+.membersImg {
+    width: 100x;
+    height: 100px;
+    border: 2px solid #0D83F6;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+tr {
+    text-align: justify;
+}
+
+table {
+    margin-bottom: 15px;;
+}
+
+h1:not(#title) {
+    font-size: 37px;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 25px;
+    text-indent: 15px;
+    line-height: 34px;
+}
+
+footer {
+    background-color: #26BE25;
+    height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+dd {
+    padding-bottom: 15px;
+    text-indent: 15px;
+    line-height: 35px;
+    font-size: larger;
+}
+
+dt {
+    font-size: 25.5px;
+    font-style: italic;
+    color: #ac5d0e;
+}
