@@ -10,14 +10,16 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="style.css">
+        <script src="item.js"></script>
     </head>
-        <body>
+        <body onload="updateCheckout()">
          
             <!--navbar-->
 
             <nav class="navbar navbar-dark navbar-expand-lg bg-dark shadow fixed-top">
-                    <a href="#">LOGO</a>
-                    <!--toggle/collapsie Button-->
+                    <a id="cart-link" class="navbar-brand" href="cart.html">Checkout (0)</a>
+
+                    <!--toggler/collapsible Button-->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                             <span class="navbar-toggler-icon"></span> 
                     </button>
@@ -96,19 +98,19 @@
                             <img src="images/img1.jpg" class="rounded-circle shadow">
                             <h3>Necro Spellbook</h3>
                             <p>49.99 plus tax</p>
-                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!">
+                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!" onclick="add(0)">
                         </div>
                         <div class="col">
                             <img src="images/img2.jpg" class="rounded-circle shadow">
                             <h3>Palantir</h3>
                             <p>99.99 plus tax</p>
-                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!">
+                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!" onclick="add(1)">
                         </div>
                         <div class="col">
                             <img src="images/img3.jpg" class="rounded-circle shadow">
                             <h3>Mandrake Root</h3>
                             <p>19.99 plus tax</p>
-                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!">
+                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!" onclick="add(2)">
                         </div>
                     </div>
                     <div class="row">
@@ -116,19 +118,19 @@
                             <img src="images/img4.jpg" class="rounded-circle shadow"> 
                             <h3>Tarot Cards</h3>
                             <p>29.99 plus tax</p>
-                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!">
+                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!" onclick="add(3)">
                         </div>
                         <div class="col">
                             <img src="images/img5.jpg" class="rounded-circle shadow">
                             <h3>Ouija Board</h3>
                             <p>19.99 plus tax</p>
-                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!">
+                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!" onclick="add(4)">
                         </div>
                         <div class="col">
                             <img src="images/img6.jpg" class="rounded-circle shadow">
                             <h3>Scrying Mirror</h3>
                             <p>45.99 plus tax</p>
-                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!">
+                            <input class="btn btn-primary btn-lg" type="button" value="Buy It Now!" onclick="add(5)">
                         </div>
                     </div>
 
